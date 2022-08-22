@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sparkling Beveragino Review</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.30.1/js/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="js/table.js"></script>
+</head>
+
+<body>
+    
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <h1 class="text-center my-5 text-light">Julia's Sparkling Beveragino Review</h1>
+    <div class="card bg-light mb-3 mx-auto" style="max-width: 65%">
+        <div id="table" class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col" data-label="brand">Brand</th>
+                        <th scope="col" data-label="flavor">Flavor</th>
+                        <th scope="col" data-label="temp">Temp</th>
+                        <th scope="col" data-label="rate">Rating</th>
+                        <th scope="col" data-label="date">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="brand">Spindrift</td>
+                        <td data-label="flavor">Raspberry Lime</td>
+                        <td data-label="temp">Unknown</td>
+                        <td data-label="rate">0/10</td>
+                        <td data-label="date">2020-06-22</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">AHA</td>
+                        <td data-label="flavor">PEACH + HONEY</td>
+                        <td data-label="temp">Warm</td>
+                        <td data-label="rate">8/10</td>
+                        <td data-label="date">2020-07-23</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Good and Gather</td>
+                        <td data-label="flavor">Unsweetened Ginger Peach</td>
+                        <td data-label="temp">Warm</td>
+                        <td data-label="rate">7/10</td>
+                        <td data-label="date">2020-08-23</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Good and Gather</td>
+                        <td data-label="flavor">Unsweetened Tropical Cherry</td>
+                        <td data-label="temp">Warm</td>
+                        <td data-label="rate">7.5/10</td>
+                        <td data-label="date">2020-08-29</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">LaCroix</td>
+                        <td data-label="flavor">Coconut</td>
+                        <td data-label="temp">Warm</td>
+                        <td data-label="rate">8/10</td>
+                        <td data-label="date">2020-09-01</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">LaCroix</td>
+                        <td data-label="flavor">Hibiscus</td>
+                        <td data-label="temp">Warm</td>
+                        <td data-label="rate">4/10</td>
+                        <td data-label="date">2020-09-15</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Trader Joe's</td>
+                        <td data-label="flavor">Black Tea with Peach Juice</td>
+                        <td data-label="temp">Room Temp</td>
+                        <td data-label="rate">7/10</td>
+                        <td data-label="date">2020-10-08</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">LaCroix</td>
+                        <td data-label="flavor">Passion Fruit</td>
+                        <td data-label="temp">Room Temp</td>
+                        <td data-label="rate">4/10</td>
+                        <td data-label="date">2020-10-23</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">AHA</td>
+                        <td data-label="flavor">Black Cherry and Coffee</td>
+                        <td data-label="temp">Lukewarm</td>
+                        <td data-label="rate">9/10</td>
+                        <td data-label="date">2020-11-06</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">AHA</td>
+                        <td data-label="flavor">Blueberry Pomegranate</td>
+                        <td data-label="temp">Cold</td>
+                        <td data-label="rate">7/10</td>
+                        <td data-label="date">2020-11-08</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Bubly</td>
+                        <td data-label="flavor">Watermelon</td>
+                        <td data-label="temp">Kinda Cold</td>
+                        <td data-label="rate">8.5/10</td>
+                        <td data-label="date">2020-12-05</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">AHA</td>
+                        <td data-label="flavor">Orange Grapefruit</td>
+                        <td data-label="temp">Unknown</td>
+                        <td data-label="rate">8/10</td>
+                        <td data-label="date">2020-12-15</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">AHA</td>
+                        <td data-label="flavor">Apple Ginger</td>
+                        <td data-label="temp">Unknown</td>
+                        <td data-label="rate">0/10</td>
+                        <td data-label="date">2020-12-22</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">AHA</td>
+                        <td data-label="flavor">Watermelon Lime</td>
+                        <td data-label="temp">Unknown</td>
+                        <td data-label="rate">8/10</td>
+                        <td data-label="date">2020-12-24</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Trader Joe's</td>
+                        <td data-label="flavor">Blood Orange in Orange Juice</td>
+                        <td data-label="temp">Room Temp</td>
+                        <td data-label="rate">1/10</td>
+                        <td data-label="date">2021-01-14</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Waterloo</td>
+                        <td data-label="flavor">Strawberry</td>
+                        <td data-label="temp">Room Temp</td>
+                        <td data-label="rate">6/10</td>
+                        <td data-label="date">2021-03-01</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Live Kombucha</td>
+                        <td data-label="flavor">Raspberry</td>
+                        <td data-label="temp">Unknown</td>
+                        <td data-label="rate">9.5/10</td>
+                        <td data-label="date">2021-03-02</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Waterloo</td>
+                        <td data-label="flavor">Lemon Lime</td>
+                        <td data-label="temp">Unknown</td>
+                        <td data-label="rate">9.5/10</td>
+                        <td data-label="date">2021-03-10</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Brew Dr. Kombucha</td>
+                        <td data-label="flavor">Yerba Mate and Guayusa</td>
+                        <td data-label="temp">Unknown</td>
+                        <td data-label="rate">1/10</td>
+                        <td data-label="date">2021-03-16</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Spindrift</td>
+                        <td data-label="flavor">Grapefruit</td>
+                        <td data-label="temp">Room Temp</td>
+                        <td data-label="rate">6/10</td>
+                        <td data-label="date">2021-05-13</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Spindrift</td>
+                        <td data-label="flavor">Lemon</td>
+                        <td data-label="temp">Unknown</td>
+                        <td data-label="rate">3/10</td>
+                        <td data-label="date">2021-05-20</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">LaCroix</td>
+                        <td data-label="flavor">Beach Plum</td>
+                        <td data-label="temp">Room Temp</td>
+                        <td data-label="rate">9/10</td>
+                        <td data-label="date">2021-05-29</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Trader Joe's</td>
+                        <td data-label="flavor">Watermelon Lemonade</td>
+                        <td data-label="temp">Unknown</td>
+                        <td data-label="rate">10/10</td>
+                        <td data-label="date">2021-05-30</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Trader Joe's</td>
+                        <td data-label="flavor">Watermelon Juice</td>
+                        <td data-label="temp">Lukewarm</td>
+                        <td data-label="rate">7/10</td>
+                        <td data-label="date">2021-06-07</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Trader Joe's</td>
+                        <td data-label="flavor">Blueberry Lemonade</td>
+                        <td data-label="temp">Unknown</td>
+                        <td data-label="rate">7/10</td>
+                        <td data-label="date">2021-06-11</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Perrier</td>
+                        <td data-label="flavor">Strawberry</td>
+                        <td data-label="temp">Room Temp</td>
+                        <td data-label="rate">4/10</td>
+                        <td data-label="date">2021-08-23</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Trader Joe's</td>
+                        <td data-label="flavor">Pomegranate Punch</td>
+                        <td data-label="temp">Unknown</td>
+                        <td data-label="rate">7/10</td>
+                        <td data-label="date">2021-11-14</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">IZZE</td>
+                        <td data-label="flavor">Blackberry Lemonade</td>
+                        <td data-label="temp">Room Temp</td>
+                        <td data-label="rate">9.5/10</td>
+                        <td data-label="date">2022-02-11</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Nixie</td>
+                        <td data-label="flavor">Watermelon Mint</td>
+                        <td data-label="temp">Room Temp</td>
+                        <td data-label="rate">10/10</td>
+                        <td data-label="date">2022-03-14</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Whalebird Kombucha</td>
+                        <td data-label="flavor">Lavender Lemonade</td>
+                        <td data-label="temp">Cold</td>
+                        <td data-label="rate">?/10</td>
+                        <td data-label="date">2022-04-11</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Nixie</td>
+                        <td data-label="flavor">Lime Ginger</td>
+                        <td data-label="temp">Room Temp</td>
+                        <td data-label="rate">10/10</td>
+                        <td data-label="date">2022-04-13</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Liquid Death</td>
+                        <td data-label="flavor">Severed Lime</td>
+                        <td data-label="temp">Room Temp</td>
+                        <td data-label="rate">4/10</td>
+                        <td data-label="date">2022-04-22</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Waterloo</td>
+                        <td data-label="flavor">Peach</td>
+                        <td data-label="temp">Room Temp</td>
+                        <td data-label="rate">9/10</td>
+                        <td data-label="date">2022-05-15</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Waterloo</td>
+                        <td data-label="flavor">Summer Berry</td>
+                        <td data-label="temp">Room Temp</td>
+                        <td data-label="rate">2/10</td>
+                        <td data-label="date">2022-05-25</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Culture Pop</td>
+                        <td data-label="flavor">Pink Grapefruit w/ ginger &amp; Juniper</td>
+                        <td data-label="temp">Cold</td>
+                        <td data-label="rate">3/10</td>
+                        <td data-label="date">2022-05-30</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Poppi</td>
+                        <td data-label="flavor">Strawberry Lemon Probiotic Soda</td>
+                        <td data-label="temp">Cold</td>
+                        <td data-label="rate">8/10</td>
+                        <td data-label="date">2022-07-11</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Olipop</td>
+                        <td data-label="flavor">Strawberry Vanilla</td>
+                        <td data-label="temp">Cold</td>
+                        <td data-label="rate">8/10</td>
+                        <td data-label="date">2022-07-23</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Ikea</td>
+                        <td data-label="flavor">CIDER ÄPPLE</td>
+                        <td data-label="temp">Cold</td>
+                        <td data-label="rate">7/10</td>
+                        <td data-label="date">2022-08-09</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">Poppi</td>
+                        <td data-label="flavor">Raspberry Rose</td>
+                        <td data-label="temp">Cold</td>
+                        <td data-label="rate">9/10</td>
+                        <td data-label="date">2022-08-17</td>
+                    </tr>
+                    <tr>
+                        <td data-label="brand">LaCroix</td>
+                        <td data-label="flavor">Cherry Blossom</td>
+                        <td data-label="temp">Room Temp</td>
+                        <td data-label="rate">4/10</td>
+                        <td data-label="date">2022-08-21</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--<script type="text/javascript" src="js/table.js"></script>-->
+    
+</body>
+
+</html>
